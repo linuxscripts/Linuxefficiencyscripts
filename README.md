@@ -5,9 +5,9 @@ The script you need to run to install all LES scripts is LES_sequential_scripts_
 This script will automatically launch all the other scripts, one-by-one.
 To be able to run this, first make sure you are root (so if you aren't root all ready, become it first
 by logging out and logging in as root and then follow the comment, given in the script itself, namely:
-# type "touch LES_sequential_scripts_launcher.sh" in the terminal, followed by
-# "chmod+x LES_sequential_scripts_launcher.sh" to make this script executable
-# then, type "./LES_sequential_scripts_launcher.sh" to execute the script
+- type "touch LES_sequential_scripts_launcher.sh" in the terminal, followed by
+- "chmod+x LES_sequential_scripts_launcher.sh" to make this script executable
+- then, type "./LES_sequential_scripts_launcher.sh" to execute the script
 
 Before executing the LES_sequential_scripts_launcher.sh script, please review the script using a program like geany, gedit, notepad++, ... Do the same with all the other scripts.
 If you want the LES_sequential_scripts_launcher.sh script to not execute a specific other script, simply comment it out. Do the same on the other scripts for any programs you don't want to install. You will also notice that some programs or plugins have all ready been outcommented. To have the script download and/or install these, you have to remove the # before each of the commands. 
