@@ -1,5 +1,8 @@
-# Linuxefficiencyscripts
+Linuxefficiencyscripts
 A project creating scripts to improve computing efficiency
+
+Regarding this github repository: the idea of this is to help facilitate cooperation on the scripts (they'ree currently still unfinished and need more work).
+It DOES NOT contain all files, so if you want to download all the files, go retrieve them from sourceforge.
 
 The script you need to run to install all LES scripts is LES_sequential_scripts_launcher.sh
 This script will automatically launch all the other scripts, one-by-one.
@@ -18,43 +21,42 @@ Overall, we rely on you to examine the scripts before execution, and alter all t
 
 To start any of the scripts individually (without the using the automated LES_sequential_scripts_launcher.sh way), you'll have to manually type in "touch scriptname.sh" at the terminal, followed by "chmod+x scriptname.sh" to make the script executable. Then, type "./scriptname.sh" to execute the script
 
-
-Specifics notes on the scripts:
+Specific notes on the scripts:
 * For the LES_slitaz_altering_programs.sh script:
 as mentioned in the script itself, a wallpaper folder will be made at /home/username/wallpapers;
 to add in wallpapers to this folder, you'll need to download these manually from websites. A list is added below:
 
 Non-linux-focused sites (which should also work, since for example feh can read PNG, TIFF and GIF so PCManFM should too); 
 some of these allow to input search strings, other require you to browse per category:
-http://www.shutterstock.com/en/photos
-http://www.morguefile.com/archive
-http://www.adigitaldreamer.com/gallery/index.php
-http://www.deviantart.com/browse/all/resources/stockart/
-http://www.freeimages.co.uk/galleries.htm
-https://www.flickr.com/creativecommons/
-http://www.photocase.com/
-http://www.everystockphoto.com/
-http://freestockphotos.com/
-http://www.unprofound.com/
-http://www.freeimages.com/
-http://www.stockvault.net/
-http://www.freephotosbank.com/
-http://www.turbophoto.com/Free-Stock-Images/
+- http://www.shutterstock.com/en/photos
+- http://www.morguefile.com/archive
+- http://www.adigitaldreamer.com/gallery/index.php
+- http://www.deviantart.com/browse/all/resources/stockart/
+- http://www.freeimages.co.uk/galleries.htm
+- https://www.flickr.com/creativecommons/
+- http://www.photocase.com/
+- http://www.everystockphoto.com/
+- http://freestockphotos.com/
+- http://www.unprofound.com/
+- http://www.freeimages.com/
+- http://www.stockvault.net/
+- http://www.freephotosbank.com/
+- http://www.turbophoto.com/Free-Stock-Images/
 
 Linux-focused sites (has wallpapers, and entire themes for openbox and other window managers)
-http://www.customize.org
-http://box-look.org
-http://www.gnome-look.org
-http://www.deviantart.com
-http://www.widewallpapers.net/
-http://www.wallpapervortex.com/
-http://www.distrogeeks.com/wallpapers/bodhi-linux/
-http://www.hdwallpapers.in/
-http://hdw.eweb4.com
-http://www.tmwallpaper.com/
-http://www.3dwallpaperstudio.com/
-http://good-wallpapers.com/
-http://wallpaperswide.com/
-http://xfce-look.org/
-http://kde-look.org/
-http://ubuntu-art.org/
+- http://www.customize.org
+- http://box-look.org
+- http://www.gnome-look.org
+- http://www.deviantart.com
+- http://www.widewallpapers.net/
+- http://www.wallpapervortex.com/
+- http://www.distrogeeks.com/wallpapers/bodhi-linux/
+- http://www.hdwallpapers.in/
+- http://hdw.eweb4.com
+- http://www.tmwallpaper.com/
+- http://www.3dwallpaperstudio.com/
+- http://good-wallpapers.com/
+- http://wallpaperswide.com/
+- http://xfce-look.org/
+- http://kde-look.org/
+- http://ubuntu-art.org/
