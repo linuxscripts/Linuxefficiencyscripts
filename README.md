@@ -1,5 +1,4 @@
 Linuxefficiencyscripts
-A project creating scripts to improve computing efficiency
 
 Regarding this github repository: the idea of this is to help facilitate cooperation on the scripts (they'ree currently still unfinished and need more work).
 It DOES NOT contain all files, so if you want to download all the files, go retrieve them from sourceforge.
