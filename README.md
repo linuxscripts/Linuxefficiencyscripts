@@ -1,4 +1,7 @@
-Linuxefficiencyscripts
+Linuxefficiencyscripts: A project creating scripts to improve computing efficiency
+Note that "computing efficiency" relates to efficiency in terms of cpu speed for a given workload/tasks being carried out, as well as user efficiency (by making the linux system more logical to work with, which is essential for people new to linux as else, in the phase starting out with linux, people get less things done on a given amount of time, in comparison to other operating systems)
+
+The speed increases would be accomplished by the installation of openbox (so as to allow people using much heavier window managers to switch to this instead), as well as various changes to the browser (which allows the user to have fewer connections running for example by blocking ads, ...), by blocking unnecessary internet connections via a newly installed firewall, ... 
 
 Regarding this github repository: the idea of this is to help facilitate cooperation on the scripts (they'ree currently still unfinished and need more work).
 It DOES NOT contain all files, so if you want to download all the files, go retrieve them from sourceforge.
