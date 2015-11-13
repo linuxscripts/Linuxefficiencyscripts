@@ -56,7 +56,7 @@ and changing the shortcut keys list with the updates mentioned below
 #Add control+a to start LXappearance
 #Add control+o to start obConf
 #Remove, super+h, super+I shortcuts
-#change super+m to start mpv, super+w to start firefox, super+e to start leafpad
+#change super+m to start mpv, super+w to start palemoon, super+e to start leafpad
 #change all this in conky too, to show the new shortcuts, and no longer show the removed ones
 #update the openbox right-click menu (.openbox/menu.xml) to no longer show the removed programs, 
 and update old links; also add in the LXDE programs (see slitaz_altering_programs script) 
@@ -89,6 +89,6 @@ xfburn replaced by burnbox
 xfce4screenshooter replaced by xwd
 htop replaced by LXtask
 file-roller is replaced by the inbuild compression in PCManFM, or xarchiver if not possible
-evince is replaced firefox's pdf reader
+evince is replaced palemoon's pdf reader
 pavucontrol is changed with the SliTaz volume control (which is called alsamixer volume mixer I believe)
-firefox is made the main browser, tazweb is the second browser, no midori
+palemoon is made the main browser, tazweb is the second browser, no midori
