@@ -23,7 +23,7 @@ after reboot-)
 #first lines should state: 
 #the old linux naming convention on the drives is detailed in-depth at https://archive.is/VAE8F (and http://www.tldp.org/HOWTO/Partition-Mass-Storage-Definitions-Naming-HOWTO/x99.html )
 #you'll notice that PATA drives are given names such as hda to hdb, depending on whether there connected on the first or second controller (belt) and whether they're master or slave;
-no differentiation is made on whether it's a cdrom or harddisk
+no initial differentiation is made on whether it's a cdrom or harddisk; however linux can detect what is a cdrom (or other optical drive, ie dvd, blueray, ...) using wodim, see https://archive.is/yi6li (or http://linuxconfig.org/how-to-mount-cdrom-in-linux )
 #also note that SATA drives and other some other drives (USB sticks, ...) can change names (i.e. sda can become sdb and vice versa, every time you boot, see https://archive.is/fAnrq (or https://wiki.archlinux.org/index.php/Persistent_block_device_naming )
 #similar to the linux directory tree changes here below, this script will solve all issues by making symbolic links of the regular linux drive names, to more drive names that make more sense to people.
 #files to change may include /etc/mkinitcpio.conf and /etc/fstab, see https://bbs.archlinux.org/viewtopic.php?id=31558
