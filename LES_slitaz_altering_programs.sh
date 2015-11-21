@@ -707,7 +707,9 @@ pcmanfm --set-wallpaper=/home/*/wallpapers/transparent_solid_colour.png
 
 #make several rootfs files, hereby giving the option of selecting different setups upon boot (see http://doc.slitaz.org/en:guides:manyinone );
 #more precisely, the following rootfs' would be made, all containing the core programs, and most containing 1 or 2 special (heavy program), knowingly: 
-#the core programs are: 
+#the core programs are: burnbox ? or xfburn ?, slitaz mountbox ?, slitaz locale ? slitaz netbox manager/wifi network , tazhw box, retawq web browser, 
+#tazweb/tazpanel, local web server, slitaz TZ, pypar2, HardInfo, Gajim, Geany, system-config-printer, gmrun, LXDE compiling dependencies, menu-cache, lxde-common, 
+#lxmenu-data, PCManFM, LXPolkit, LXpanel, Leafpad, Xarchiver, GPicView, LXTerminal, Galculator, LXTask, LXAppearance, LXRandr, LXInput, lxde-icon-theme, xscreensaver
 #flavor 1: core programs only
 #flavor 2: core programs + abiword
 #flavor 3: core programs + mpv
