@@ -12,7 +12,7 @@
 #Install retawq web browser (needed for web-based man checking)
 #Install tazweb/tazpanel
 #Install local web server (needed for tazpanel)
-#Install slitaz TZ (time zone configuration, yes)
+#Install slitaz TZ (time zone configuration)
 #Install pypar2 (parchiver to prevent file corruption from transferring files online)
 #Install HardInfo
 #Install Gajim
