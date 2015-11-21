@@ -38,6 +38,8 @@ after reboot-)
 #ttyS1 (to ttyS2) --> SerialP1 to SerialP2
 #sr0 (to sr1) and scd0 (to scd1) --> SCSI1, SCSI2  
 #it will also remove all symbolic links as these then become confusing and have also been misleading in the past, for example sr0, ... could refer to both SCSI devices as SATA devices
+#the issue of the changing device names won't be solved completely (it will be easier to identify most drives though, but if you have say 2 SATA drives, it might still be a problem);
+#however this minor issue can then be adressed by the user himself afterwards, by adding a uuid in /etc/fstab
 #files to change may include /etc/mkinitcpio.conf and /etc/fstab, see https://bbs.archlinux.org/viewtopic.php?id=31558
 
 #Changing the linux directory tree
