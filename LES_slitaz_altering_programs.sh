@@ -40,7 +40,6 @@
 #LXInput
 #lxde-icon-theme
 #It won't install the following parts of LXDE though: LXSession, LXDM, LXFind, LXMusic, LXAppearance Obconf ?, LXNM ? LXLauncher ?, LXShortCut ?
-#make several rootfs files, hereby giving the option of selecting different setups upon boot (see http://doc.slitaz.org/en:guides:manyinone )
 #Change the lxde-logout script to no longer show the buttons relying on LXSession
 #Change the LXpanel configuration file (see http://wiki.lxde.org/en/LXPanel ) to look more like a dock, and change the programs it starts
 #Install xscreensaver, together with 1 regular screensaver and a random image slideshow, picking images from /home/username/wallpapers
@@ -59,6 +58,7 @@
 #Inkscape (advanced image editing program, vector graphics editor)
 #Gnumeric and Sozi or Openoffice Calc (oocalc) and Openoffice Impress (ooimpress) -for making spreadsheets and slideshows-
 #Transmission (debian package included to scripts folder ?), useful for transferring files quickly, without fear of corrupting them during file transfer; pypar2 all ready provides the latter too though
+#make several rootfs files, hereby giving the option of selecting different setups upon boot (see http://doc.slitaz.org/en:guides:manyinone )
 
 #Note that there is no additional screenshot program added, but one can use xwd for this instead (all ready in X.org)
 #Note that the programs the script will install will be the converted debian (so slitaz) packages, not debian packages; if you have a plain debian distro, change the .tazpkg extension to .deb instead, and also change "tazpkg install" by "aptitude install"
@@ -660,9 +660,6 @@ cd ~/files_slitaz_altering_programs_script/openbox_themes/lxde-icon-theme-0.5.1
 make install
 gtk-update-icon-cache -qf /usr/share/icons/nuoveXT2
 
-#make several rootfs files, hereby giving the option of selecting different setups upon boot (see http://doc.slitaz.org/en:guides:manyinone )
-?
-
 #Change the lxde-logout script to no longer show the buttons relying on LXSession
 ?
 
@@ -707,3 +704,18 @@ pcmanfm --set-wallpaper=/home/*/wallpapers/transparent_solid_colour.png
 
 #Install Transmission
 #tazpkg get-install transmission
+
+#make several rootfs files, hereby giving the option of selecting different setups upon boot (see http://doc.slitaz.org/en:guides:manyinone );
+#more precisely, the following rootfs' would be made, all containing the core programs, and most containing 1 or 2 special (heavy program), knowingly: 
+#the core programs are: 
+#flavor 1: core programs only
+#flavor 2: core programs + abiword
+#flavor 3: core programs + mpv
+#flavor 4: core programs + openoffice writer (deactivated by default, activate if you indeed have openoffice installed)
+#flavor 5: core programs + gnumeric + sozi (deactivated by default, activate if you indeed have gnumeric and sozi installed)
+#flavor 6: core programs + openoffice calc + opeoffice impress (deactivated by default, activate if you indeed have openoffice calc and impress installed)
+#flavor 7: core programs + GIMP (deactivated by default, activate if you indeed have GIMP installed)
+#flavor 8: core programs + inkscape (deactivated by default, activate if you indeed have inkscape installed)
+#flavor 9: core programs + mplayer2 (deactivated by default, activate if you indeed have mplayer2 installed)
+#flavor 10: core programs + DeaDBeeF (deactivated by default, activate if you indeed have DeaDBeeF installed)
+?
