@@ -40,6 +40,7 @@
 #LXInput
 #lxde-icon-theme
 #It won't install the following parts of LXDE though: LXSession, LXDM, LXFind, LXMusic, LXAppearance Obconf ?, LXNM ? LXLauncher ?, LXShortCut ?
+#make several rootfs files, hereby giving the option of selecting different setups upon boot (see http://doc.slitaz.org/en:guides:manyinone )
 #Change the lxde-logout script to no longer show the buttons relying on LXSession
 #Change the LXpanel configuration file (see http://wiki.lxde.org/en/LXPanel ) to look more like a dock, and change the programs it starts
 #Install xscreensaver, together with 1 regular screensaver and a random image slideshow, picking images from /home/username/wallpapers
@@ -658,6 +659,9 @@ cd ~/files_slitaz_altering_programs_script/openbox_themes/lxde-icon-theme-0.5.1
 ./configure --prefix=/usr
 make install
 gtk-update-icon-cache -qf /usr/share/icons/nuoveXT2
+
+#make several rootfs files, hereby giving the option of selecting different setups upon boot (see http://doc.slitaz.org/en:guides:manyinone )
+?
 
 #Change the lxde-logout script to no longer show the buttons relying on LXSession
 ?
