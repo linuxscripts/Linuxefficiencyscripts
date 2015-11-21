@@ -26,7 +26,7 @@ after reboot-)
 no differentiation is made on whether it's a cdrom or harddisk
 #also note that SATA drives and other some other drives (USB sticks, ...) can change names (i.e. sda can become sdb and vice versa, every time you boot, see https://archive.is/fAnrq (or https://wiki.archlinux.org/index.php/Persistent_block_device_naming )
 #similar to the linux directory tree changes here below, this script will solve all issues by making symbolic links of the regular linux drive names, to more drive names that make more sense to people.
-
+#files to change may include /etc/mkinitcpio.conf and /etc/fstab, see https://bbs.archlinux.org/viewtopic.php?id=31558
 
 types of drives
 
