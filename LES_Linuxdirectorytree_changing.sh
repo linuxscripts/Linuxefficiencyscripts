@@ -21,11 +21,11 @@ automatically add a line to the
 after reboot-)
 
 #first lines should state: 
-#the old linux naming convention on the drives is detailed in-depth at https://archive.is/VAE8F (and http://www.tldp.org/HOWTO/Partition-Mass-Storage-Definitions-Naming-HOWTO/x99.html )
+#the old linux naming convention on the drives is detailed in-depth at https://archive.is/VAE8F  and https://archive.is/PoMnq (or http://www.tldp.org/HOWTO/Partition-Mass-Storage-Definitions-Naming-HOWTO/x99.html , and http://www.tldp.org/HOWTO/SCSI-2.4-HOWTO/dnames.html)
 #you'll notice that PATA drives are given names such as hda to hdb, depending on whether there connected on the first or second controller (belt) and whether they're master or slave;
-no initial differentiation is made on whether it's a cdrom or harddisk; however linux can detect what is a cdrom (or other optical drive, ie dvd, blueray, ...) using wodim, see https://archive.is/yi6li (or http://linuxconfig.org/how-to-mount-cdrom-in-linux )
-#often, this is done by the kernel, which then makes symbolic links (with names as "sr0" or scd0" to /dev/hdb -if your cdrom is say set as slave on controller 1-))
-#also note that SATA drives and other some other drives (USB sticks, ...) can change names (i.e. sda can become sdb and vice versa, every time you boot, see https://archive.is/fAnrq (or https://wiki.archlinux.org/index.php/Persistent_block_device_naming )
+#SATA drives as well as USB and firewire drives are indicated with the name "sda" to "sdd", floppy drives are indicated with fd0, fd1, ... parallell port devices are indicated with lp0, lp1, ..., serial port devices are indicated with ttyS1, ttyS2, ... and scsi drives are indicated with sr0, sr1, ... or scd0, scd1 
+#note hereby that with conventional PATA drives (so not scsi drives!), no initial differentiation is made on whether it's a cdrom or harddisk; however linux can detect what is a cdrom (or other optical drive, ie dvd, blueray, ...) using wodim, see https://archive.is/yi6li (or http://linuxconfig.org/how-to-mount-cdrom-in-linux );
+#also note that SATA drives and other some other drives (USB sticks, firewire drives, ...) can change names (i.e. sda can become sdb and vice versa, every time you boot, see https://archive.is/fAnrq (or https://wiki.archlinux.org/index.php/Persistent_block_device_naming )
 #similar to the linux directory tree changes here below, this script will solve all issues by making symbolic links of the regular linux drive names, to more drive names that make more sense to people.
 #it will also remove symbolic links that are misleading, for example sr0, ... won't be used any more as it can refer to both SCSI devices as SATA devices
 #files to change may include /etc/mkinitcpio.conf and /etc/fstab, see https://bbs.archlinux.org/viewtopic.php?id=31558
