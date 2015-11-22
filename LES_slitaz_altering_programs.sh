@@ -720,4 +720,10 @@ pcmanfm --set-wallpaper=/home/*/wallpapers/transparent_solid_colour.png
 #flavor 8: core programs + inkscape (deactivated by default, activate if you indeed have inkscape installed)
 #flavor 9: core programs + mplayer2 (deactivated by default, activate if you indeed have mplayer2 installed)
 #flavor 10: core programs + DeaDBeeF (deactivated by default, activate if you indeed have DeaDBeeF installed)
+#STEP 1: define the packages for each of the 10 boot setups
 ?
+#STEP 2: build the iso containing the 10 different boot setups
+?
+#STEP 3: overwrite the isolinux.cfg file so the boot loader can detect the 10 different boot setups
+cd ~/files_slitaz_altering_programs_script/boot_setups_creation/
+cp isolinux.cfg /boot/isolinux/isolinux.cfg
