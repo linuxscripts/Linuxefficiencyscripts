@@ -17,6 +17,11 @@
 
 #!/bin/sh
 
+tazpkg remove busybox
+
+cd ~/files_busybox_cmd_update/
+tazpkg install busybox-1-21-1-altered.tazpkg
+
 for all this, busybox will need to be rebuild appearantly, can't be done with
 deleting things from outside busybox, see 
 http://busybox.net/FAQ.html#backporting
