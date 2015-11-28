@@ -15,7 +15,7 @@
 #Install slitaz TZ (time zone configuration)
 #Install pypar2 (parchiver to prevent file corruption from transferring files online)
 #Install HardInfo
-#Install Gajim
+#Install Gajim + OTR plugin
 #Install Geany
 #Install mpv
 #Install abiword
@@ -351,7 +351,7 @@ tazpkg install libxml2_2.9.1+dfsg1-5_i386.tazpkg
 tazpkg install pciutils_3.2.1-3_i386.tazpkg
 #tazpkg install zlib1g_1.2.8.dfsg-2+b1_i386.tazpkg (all ready installed by clamav)
 
-#Install Gajim
+#Install Gajim + OTR plugin (https://github.com/python-otr/gajim-otr)
 cd ~/files_slitaz_altering_programs_script/gajim/
 tazpkg install gajim_0.16-1_all.tazpkg
 tazpkg install dbus_1.8.16-1_i386.tazpkg
@@ -360,6 +360,7 @@ tazpkg install python_2.7.9-1_i386.tazpkg
 tazpkg install python-dbus_1.2.0-2+b3_i386.tazpkg
 tazpkg install python-gtk2_2.24.0-4_i386.tazpkg
 tazpkg install python-nbxmpp_0.5.1-2_all.tazpkg
+cp pure-python-otr-master /share/gajim/plugins/
 
 #Install Geany
 cd ~/files_slitaz_altering_programs_script/geany/
