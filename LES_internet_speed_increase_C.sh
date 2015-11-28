@@ -4,17 +4,12 @@
 ##########################################################################
 
 #This script will
-#Install gajim OTR plugin
 #Install youtube-viewer
 #Install firejail (= a sandboxing program ) and make a profile for the Pale Moon browser
 
 #Note that the programs the script will install will be the converted debian (so slitaz) packages, not debian packages; if you have a plain debian distro, change the .tazpkg extension to .deb instead and also change "tazpkg install" by "aptitude install""
 
 #!/bin/sh
-
-#Install gajim OTR plugin (https://github.com/python-otr/gajim-otr)
-cd ~/files_slitaz_altering_programs_script/gajim/
-cp pure-python-otr-master /share/gajim/plugins/
 
 #Convert debian packages to tazpkg packages (deactivate this by adding # before each line if you use a plain debian distro, and not a slitaz-based distro)
 cd ~/files_internet_speed_increase_scripts/
