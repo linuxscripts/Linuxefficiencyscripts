@@ -314,8 +314,10 @@ tazpkg convert xscreensaver_5.30-1+b1_i386.deb
 #Install tazhw box (debian package included to scripts folder ?)
 
 #Install retawq web browser (needed for web-based man checking)
+tazpkg install retawq
 
 #Install tazweb/tazpanel
+yazpkg install tazpanel
 
 #Install local web server (needed for tazpanel)
 
