@@ -26,13 +26,13 @@ tazpkg convert libterm-readkey-perl_2.32-1+b1_i386.deb
 
 #Install youtube-viewer (see https://github.com/trizen/youtube-viewer/issues/22)
 cd ~/files_internet_speed_increase_scripts/youtube-viewer/WWW-YoutubeViewer/
-./libdata-dump-perl_1.22-1_all.tazpkg
-./libgtk2-perl_1.2492-4_i386.tazpkg
-./libwww-perl_6.08-1_all.tazpkg
-./gcap_0.1.1-1_all.tazpkg
-./libterm-readline-gnu-perl_1.24-2+b1_i386.tazpkg
-./liblwp-protocol-https-perl_6.06-2_all.tazpkg
-./libterm-readkey-perl_2.32-1+b1_i386.tazpkg
+tazpkg install libdata-dump-perl_1.22-1_all.tazpkg
+tazpkg install libgtk2-perl_1.2492-4_i386.tazpkg
+tazpkg install libwww-perl_6.08-1_all.tazpkg
+tazpkg install gcap_0.1.1-1_all.tazpkg
+tazpkg install libterm-readline-gnu-perl_1.24-2+b1_i386.tazpkg
+tazpkg install liblwp-protocol-https-perl_6.06-2_all.tazpkg
+tazpkg install libterm-readkey-perl_2.32-1+b1_i386.tazpkg
 sudo cpan -i XML::Fast
 ./Build.PL
 ./Build
