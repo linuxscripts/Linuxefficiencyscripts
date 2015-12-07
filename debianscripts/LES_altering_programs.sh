@@ -153,82 +153,82 @@ dpkg install xscreensaver-data_5.30-1+b1_i386.tazpkg
 
 #Install abiword
 cd ~/files_slitaz_altering_programs_script/abiword/
-tazpkg install abiword_3.0.0-8+b1_i386.tazpkg
-tazpkg install abiword-common_3.0.0-8_all.tazpkg
-tazpkg install gsfonts_8.11+urwcyr1.0.7~pre44-4.2_all.tazpkg
-tazpkg install libabiword-3.0_3.0.0-8+b1_i386.tazpkg
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
-tazpkg install libdbus-1-3_1.8.16-1_i386.tazpkg
-tazpkg install libdbus-glib-1-2_0.102-1_i386.tazpkg
-tazpkg install libgcc1_4.9.2-10_i386.tazpkg
-tazpkg install libgcrypt20_1.6.3-2_i386.tazpkg
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-tazpkg install libgnutls-deb0-28_3.3.8-6_i386.tazpkg
-tazpkg install libgoffice-0.10-10_0.10.18-1_i386.tazpkg
-tazpkg install libgsf-1-114_1.14.30-2_i386.tazpkg
-#tazpkg install libgtk-3-0_3.14.5-1_i386.tazpkg (all ready converted/installed by galculator)
-#tazpkg install libjpeg62-turbo_1.3.1-12_i386.tazpkg (all ready converted/installed by mpv)
-tazpkg install libloudmouth1-0_1.4.3-12_i386.tazpkg
-tazpkg install libots0_0.5.0-2.1_i386.tazpkg
-tazpkg install libpng12-0_1.2.50-2+b2_i386.tazpkg
-tazpkg install librdf0_1.0.17-1+b1_i386.tazpkg
-tazpkg install libreadline6_6.3-8+b3_i386.tazpkg
-tazpkg install librevenge-0.0-0_0.0.1-3_i386.tazpkg
-#tazpkg install libsoup2.4-1_2.48.0-1_i386.tazpkg (all ready installed by hardinfo)
-#tazpkg install libstdc++6_4.9.2-10_i386.tazpkg (all ready converted/installed by firefox, in other script)
-tazpkg install libtelepathy-glib0_0.24.1-1_i386.tazpkg
-tazpkg install libtidy-0.99-0_20091223cvs-1.4_i386.tazpkg
-tazpkg install libwmf0.2-7_0.2.8.4-10.3+b2_i386.tazpkg
-tazpkg install libwpd-0.10-10_0.10.0-2+b1_i386.tazpkg
-tazpkg install libwpg-0.3-3_0.3.0-3_i386.tazpkg
-tazpkg install libwps-0.3-3_0.3.0-2_i386.tazpkg
-tazpkg install libxml2_2.9.1+dfsg1-5_i386.tazpkg
-#tazpkg install zlib1g_1.2.8.dfsg-2+b1_i386.tazpkg (all ready converted/installed by clamav)
+dpkg install abiword_3.0.0-8+b1_i386.tazpkg
+dpkg install abiword-common_3.0.0-8_all.tazpkg
+dpkg install gsfonts_8.11+urwcyr1.0.7~pre44-4.2_all.tazpkg
+dpkg install libabiword-3.0_3.0.0-8+b1_i386.tazpkg
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
+dpkg install libdbus-1-3_1.8.16-1_i386.tazpkg
+dpkg install libdbus-glib-1-2_0.102-1_i386.tazpkg
+dpkg install libgcc1_4.9.2-10_i386.tazpkg
+dpkg install libgcrypt20_1.6.3-2_i386.tazpkg
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+dpkg install libgnutls-deb0-28_3.3.8-6_i386.tazpkg
+dpkg install libgoffice-0.10-10_0.10.18-1_i386.tazpkg
+dpkg install libgsf-1-114_1.14.30-2_i386.tazpkg
+#dpkg install libgtk-3-0_3.14.5-1_i386.tazpkg (all ready converted/installed by galculator)
+#dpkg install libjpeg62-turbo_1.3.1-12_i386.tazpkg (all ready converted/installed by mpv)
+dpkg install libloudmouth1-0_1.4.3-12_i386.tazpkg
+dpkg install libots0_0.5.0-2.1_i386.tazpkg
+dpkg install libpng12-0_1.2.50-2+b2_i386.tazpkg
+dpkg install librdf0_1.0.17-1+b1_i386.tazpkg
+dpkg install libreadline6_6.3-8+b3_i386.tazpkg
+dpkg install librevenge-0.0-0_0.0.1-3_i386.tazpkg
+#dpkg install libsoup2.4-1_2.48.0-1_i386.tazpkg (all ready installed by hardinfo)
+#dpkg install libstdc++6_4.9.2-10_i386.tazpkg (all ready converted/installed by firefox, in other script)
+dpkg install libtelepathy-glib0_0.24.1-1_i386.tazpkg
+dpkg install libtidy-0.99-0_20091223cvs-1.4_i386.tazpkg
+dpkg install libwmf0.2-7_0.2.8.4-10.3+b2_i386.tazpkg
+dpkg install libwpd-0.10-10_0.10.0-2+b1_i386.tazpkg
+dpkg install libwpg-0.3-3_0.3.0-3_i386.tazpkg
+dpkg install libwps-0.3-3_0.3.0-2_i386.tazpkg
+dpkg install libxml2_2.9.1+dfsg1-5_i386.tazpkg
+#dpkg install zlib1g_1.2.8.dfsg-2+b1_i386.tazpkg (all ready converted/installed by clamav)
 
 #Install system-config-printer (automatic printer installation program; rather heavy though, so if you don't have a printer or do not need to be able to use it with this PC uncomment this whole section; also note that a lighter-weight alternative is a manual install using cups along with additional printer drivers -like gutenprint, hplip, ...-, see https://wiki.debian.org/SystemPrinting, http://doc.slitaz.org/en:guides:printer). This latter option is more difficult to set up though
 cd ~/files_slitaz_altering_programs_script/system_config_printer/
-tazpkg install system-config-printer_1.4.6-1_all.tazpkg
-tazpkg install gir1.2-gdkpixbuf-2.0.tazpkg
-tazpkg install gir1.2-glib-2.0_1.42.0-2.2_i386.tazpkg
-tazpkg install gir1.2-gtk-3.0_3.14.5-1_i386.tazpkg
-tazpkg install gir1.2-notify-0.7_0.7.6-2_i386.tazpkg
-tazpkg install gir1.2-packagekitglib-1.0_1.0.1-2_i386.tazpkg 
-tazpkg install gir1.2-pango-1.0_1.36.8-3_i386.tazpkg
-tazpkg install gnome-icon-theme_3.12.0-1_all.tazpkg
-#tazpkg install python_2.7.9-1_i386.tazpkg (all ready installed by gajim)
-tazpkg install python-cairo_1.8.8-1+b2_i386.tazpkg
-tazpkg install python-cups_1.9.63-1_i386.tazpkg 
-tazpkg install python-cupshelpers_1.4.6-1_all.tazpkg
-tazpkg install python-gi_3.14.0-1_i386.tazpkg
-tazpkg install python-gobject-2_2.28.6-12_i386.tazpkg
-tazpkg install python-libxml2_2.9.1+dfsg1-5_i386.tazpkg
+dpkg install system-config-printer_1.4.6-1_all.tazpkg
+dpkg install gir1.2-gdkpixbuf-2.0.tazpkg
+dpkg install gir1.2-glib-2.0_1.42.0-2.2_i386.tazpkg
+dpkg install gir1.2-gtk-3.0_3.14.5-1_i386.tazpkg
+dpkg install gir1.2-notify-0.7_0.7.6-2_i386.tazpkg
+dpkg install gir1.2-packagekitglib-1.0_1.0.1-2_i386.tazpkg 
+dpkg install gir1.2-pango-1.0_1.36.8-3_i386.tazpkg
+dpkg install gnome-icon-theme_3.12.0-1_all.tazpkg
+#dpkg install python_2.7.9-1_i386.tazpkg (all ready installed by gajim)
+dpkg install python-cairo_1.8.8-1+b2_i386.tazpkg
+dpkg install python-cups_1.9.63-1_i386.tazpkg 
+dpkg install python-cupshelpers_1.4.6-1_all.tazpkg
+dpkg install python-gi_3.14.0-1_i386.tazpkg
+dpkg install python-gobject-2_2.28.6-12_i386.tazpkg
+dpkg install python-libxml2_2.9.1+dfsg1-5_i386.tazpkg
 
 #Install gmrun
 cd ~/files_slitaz_altering_programs_script/gmrun/
-tazpkg install gmrun_0.9.2-2.1_i386.tazpkg
-#tazpkg install libatk1.0-0_2.14.0-1_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
-#tazpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libfreetype6_2.5.2-3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libgcc1_4.9.2-10_i386.tazpkg (all ready converted/installed by geany)
-#tazpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script) 
-#tazpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+dpkg install gmrun_0.9.2-2.1_i386.tazpkg
+#dpkg install libatk1.0-0_2.14.0-1_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
+#dpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libfreetype6_2.5.2-3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libgcc1_4.9.2-10_i386.tazpkg (all ready converted/installed by geany)
+#dpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script) 
+#dpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
 
 #Install mpv
 cd ~/files_slitaz_altering_programs_script/mpv/
-tazpkg install mpv_0.6.2-2_i386.tazpkg
-tazpkg install libasound2_1.0.28-1_i386.tazpkg
-tazpkg install libass5_0.10.2-3_i386.tazpkg
-tazpkg install libatomic1_4.9.2-10_i386.tazpkg
-tazpkg install libavcodec56_11.3-1_i386.tazpkg
-tazpkg install libavdevice55_11.3-1_i386.tazpkg
-tazpkg install libavfilter5_11.3-1_i386.tazpkg
-tazpkg install libavformat56_11.3-1_i386.tazpkg
+dpkg install mpv_0.6.2-2_i386.tazpkg
+dpkg install libasound2_1.0.28-1_i386.tazpkg
+dpkg install libass5_0.10.2-3_i386.tazpkg
+dpkg install libatomic1_4.9.2-10_i386.tazpkg
+dpkg install libavcodec56_11.3-1_i386.tazpkg
+dpkg install libavdevice55_11.3-1_i386.tazpkg
+dpkg install libavfilter5_11.3-1_i386.tazpkg
+dpkg install libavformat56_11.3-1_i386.tazpkg
 tazpkg install libavresample2_11.3-1_i386.tazpkg
 tazpkg install libavutil54_11.3-1_i386.tazpkg
 tazpkg install libbluray1_0.6.2-1_i386.tazpkg
