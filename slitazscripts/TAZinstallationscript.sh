@@ -1,5 +1,5 @@
 ##########################################################################
-#                      TAZ installation script                           #
+#               TAZ installation script for slitaz 5                     #
 # made by Brian Peregrine, released under the GNU General Public License #
 ##########################################################################
 
@@ -17,15 +17,35 @@
 
 #!/bin/sh
 
-tazpkg get-install 
+tazpkg remove alsaplayer
+tazpkg remove beaver
+tazpkg remove dropbear
+tazpkg remove epdfview
+tazpkg remove gcolor2
+tazpkg remove mtpaint
+tazpkg remove mhwaveedit
+tazpkg remove tazwikiss
+tazpkg remove xombrero
+
+tazpkg get-install get-palemoon
+tazpkg get-install get-flash-plugin
+
+tazpkg get-install ipkungfu
+tazpkg get-install youtube-viewer
+tazpkg get-install firejail
+tazpkg get-install pypar2
+tazpkg get-install gajim-OTR
+tazpkg get-install PCMan-noGVFS
+tazpkg get-install get-palemoon-secimp
+tazpkg get-install conky-crnbng_style
+tazpkg get-install openbox-crnbng_style
+tazpkg get-install fstab_logicaldrives
+tazpkg get-install xscreensaver_slideshow_style
+tazpkg get-install slitaz_persistencebootupforHDD
+tazpkg get-install busybox-altered
 
 
-
-
-tazpkg remove busybox
-
-cd ~/files_busybox_cmd_update/
-tazpkg install busybox-1-24-1-altered.tazpkg
+Busybox altered details:
 
 for all this, busybox will need to be rebuild appearantly, can't be done with
 deleting things from outside busybox, see 
