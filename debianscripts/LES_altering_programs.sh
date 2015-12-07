@@ -1,5 +1,5 @@
 ##########################################################################
-#                      Slitaz_altering_programs                          #
+#                         altering_programs                              #
 # made by Brian Peregrine, released under the GNU General Public License #
 ##########################################################################
 
@@ -229,16 +229,16 @@ dpkg install libavcodec56_11.3-1_i386.tazpkg
 dpkg install libavdevice55_11.3-1_i386.tazpkg
 dpkg install libavfilter5_11.3-1_i386.tazpkg
 dpkg install libavformat56_11.3-1_i386.tazpkg
-tazpkg install libavresample2_11.3-1_i386.tazpkg
-tazpkg install libavutil54_11.3-1_i386.tazpkg
-tazpkg install libbluray1_0.6.2-1_i386.tazpkg
-tazpkg install libbs2b0_3.1.0+dfsg-2.1_i386.tazpkg
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
-tazpkg install libcdio13_0.83-4.2_i386.tazpkg
-tazpkg install libcdio-cdda1_0.83-4.2_i386.tazpkg
-tazpkg install libcdio-paranoia1_0.83-4.2_i386.tazpkg
-tazpkg install libdvdnav4_5.0.1-1_i386.tazpkg
-tazpkg install libdvdread4_5.0.0-1_i386.tazpkg
+dpkg install libavresample2_11.3-1_i386.tazpkg
+dpkg install libavutil54_11.3-1_i386.tazpkg
+dpkg install libbluray1_0.6.2-1_i386.tazpkg
+dpkg install libbs2b0_3.1.0+dfsg-2.1_i386.tazpkg
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
+dpkg install libcdio13_0.83-4.2_i386.tazpkg
+dpkg install libcdio-cdda1_0.83-4.2_i386.tazpkg
+dpkg install libcdio-paranoia1_0.83-4.2_i386.tazpkg
+dpkg install libdvdnav4_5.0.1-1_i386.tazpkg
+dpkg install libdvdread4_5.0.0-1_i386.tazpkg
 tazpkg install libegl1-mesa_10.3.2-1_i386.tazpkg
 tazpkg install libenca0_1.16-1_i386.tazpkg
 tazpkg install libgl1-mesa-glx_10.3.2-1_i386.tazpkg
