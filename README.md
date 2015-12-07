@@ -1,4 +1,5 @@
 Linuxefficiencyscripts: A project creating scripts to improve computing efficiency
+
 Note that "computing efficiency" relates to efficiency in terms of cpu speed for a given workload/tasks being carried out, as well as user efficiency (by making the linux system more logical to work with, which is essential for people new to linux as else, in the phase starting out with linux, people get less things done on a given amount of time, in comparison to other operating systems)
 
 The speed increases would be accomplished by the installation of openbox (so as to allow people using much heavier window managers to switch to this instead), using lighter-weight alternatives to certain programs, as well as various changes to the browser (which amongst others reduces the stored internet history to a minimum and/or disable it for that session (non-persistence), allows the user to have fewer connections running for example by blocking ads, ...), by blocking unnecessary internet connections via a newly installed firewall, ... 
@@ -17,9 +18,11 @@ by logging out and logging in as root and then follow the comment, given in the 
 Before executing the LES_sequential_scripts_launcher.sh script, please review the script using a program like geany, gedit, notepad++, ... Do the same with all the other scripts.
 If you want the LES_sequential_scripts_launcher.sh script to not execute a specific other script, simply comment it out. Do the same on the other scripts for any programs you don't want to install. You will also notice that some programs or plugins have all ready been outcommented. To have the script download and/or install these, you have to remove the # before each of the commands. 
 
-Depending on the linux distro you use, some commands in the script may not work. For example, installing a program by the "dpkg" command will not work on non-debian distro's. Instead, the command then needs to be changed to say "rpm" or "tazpkg", ... 
+The main folders have been made: one for slitaz, and one for debian linux (and debian-based distro's).
+Slitaz has its own folder as for this distro, special packages will be made which are then simply installed from the slitaz servers.
 
-Overall, we rely on you to examine the scripts before execution, and alter all the non-compatible commands to suit your linux distro.
+Depending on the debian linux distro you use, some commands in the debian scripts may not work. For example, installing a program by the "dpkg" command will not work on debian distro's that do not have dpkg installed. Instead, the command then needs to be changed to say "rpm", ... 
+Overall, we rely on you to examine the debian scripts before execution, and alter all the non-compatible commands to suit your linux distro.
 
 To start any of the scripts individually (without the using the automated LES_sequential_scripts_launcher.sh way), you'll have to manually type in "touch scriptname.sh" at the terminal, followed by "chmod+x scriptname.sh" to make the script executable. Then, type "./scriptname.sh" to execute the script
 
