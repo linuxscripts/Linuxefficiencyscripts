@@ -4,15 +4,7 @@
 ##########################################################################
 
 #This script will
-#Install burnbox ? or xfburn ?
-#Install slitaz mountbox ? (debian package included to scripts folder ?)
-#Install slitaz locale ? (debian package included to scripts folder ?)
-#Install slitaz netbox manager/wifi network (slitaz configuration program, debian package included to scripts folder )
-#Install tazhw box (debian package included to scripts folder ?)
 #Install retawq web browser (needed for web-based man checking)
-#Install tazweb/tazpanel
-#Install local web server (needed for tazpanel)
-#Install slitaz TZ (time zone configuration)
 #Install pypar2 (parchiver to prevent file corruption from transferring files online)
 #Install HardInfo
 #Install Gajim + OTR plugin
@@ -303,25 +295,8 @@ cd ~/files_slitaz_altering_programs_script/
 tazpkg convert xscreensaver_5.30-1+b1_i386.deb
 
 #Install the programs mentioned above:
-#Install burnbox ? or xfburn ?
-
-#Install slitaz mountbox ? (debian package included to scripts folder ?)
-
-#Install slitaz locale ? (debian package included to scripts folder ?)
-
-#Install slitaz netbox manager/wifi network (slitaz configuration program, debian package included to scripts folder )
-
-#Install tazhw box (debian package included to scripts folder ?)
-
 #Install retawq web browser (needed for web-based man checking)
 tazpkg install retawq
-
-#Install tazweb/tazpanel
-yazpkg install tazpanel
-
-#Install local web server (needed for tazpanel)
-
-#Install slitaz TZ (time zone configuration, yes)
 
 #Install pypar2
 cd ~/files_slitaz_altering_programs_script/pypar2/
