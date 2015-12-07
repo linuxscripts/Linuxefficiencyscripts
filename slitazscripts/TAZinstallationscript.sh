@@ -1,9 +1,9 @@
 ##########################################################################
-#                         BusyBox_cmd_update                             #
+#                      TAZ installation script                           #
 # made by Brian Peregrine, released under the GNU General Public License #
 ##########################################################################
 
-#This script will
+#BusyBox_cmd_update: will
 #Remove tty
 #Remove ttysize
 #Remove getty
