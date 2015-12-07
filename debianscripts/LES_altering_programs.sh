@@ -122,34 +122,34 @@ dpkg install multiarch-support_2.19-18_i386.tazpkg
 
 #Install xscreensaver
 cd ~/files_slitaz_altering_programs_script/xscreensaver/
-tazpkg install xscreensaver_5.30-1+b1_i386.tazpkg
-#tazpkg install libatk1.0-0_2.14.0-1_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
-#tazpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libfreetype6_2.5.2-3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by hardinfo)
-tazpkg install libglade2-0_2.6.4-2_i386.tazpkg
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script) 
-tazpkg install libice6_1.0.9-1+b1_i386.tazpk
-tazpkg install libpam0g_1.1.8-3.1_i386.tazpkg
-#tazpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
-tazpkg install libsm6_1.2.2-1+b1_i386.tazpkg
-tazpkg install libx11-6_1.6.2-3_i386.tazpkg
-tazpkg install libxext6_1.3.3-1_i386.tazpkg
-tazpkg install libxi6_1.7.4-1+b2_i386.tazpkg
-tazpkg install libxinerama1_1.1.3-1+b1_i386.tazpkg
-#tazpkg install libxml2_2.9.1+dfsg1-5_i386.tazpkg (all ready converted/installed by hardinfo)
-tazpkg install libxmu6_1.1.2-1_i386.tazpkg
-tazpkg install libxpm4_3.5.11-1+b1_i386.tazpkg
-tazpkg install libxrandr2_1.4.2-1+b1_i386.tazpkg
-tazpkg install libxrender1_0.9.8-1+b1_i386.tazpkg
-tazpkg install libxt6_1.1.4-1+b1_i386.tazpkg
-tazpkg install libxxf86vm1_1.1.3-1+b1_i386.tazpkg
-tazpkg install xscreensaver-data_5.30-1+b1_i386.tazpkg
+dpkg install xscreensaver_5.30-1+b1_i386.tazpkg
+#dpkg install libatk1.0-0_2.14.0-1_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
+#dpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libfreetype6_2.5.2-3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by hardinfo)
+dpkg install libglade2-0_2.6.4-2_i386.tazpkg
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script) 
+dpkg install libice6_1.0.9-1+b1_i386.tazpk
+dpkg install libpam0g_1.1.8-3.1_i386.tazpkg
+#dpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+dpkg install libsm6_1.2.2-1+b1_i386.tazpkg
+dpkg install libx11-6_1.6.2-3_i386.tazpkg
+dpkg install libxext6_1.3.3-1_i386.tazpkg
+dpkg install libxi6_1.7.4-1+b2_i386.tazpkg
+dpkg install libxinerama1_1.1.3-1+b1_i386.tazpkg
+#dpkg install libxml2_2.9.1+dfsg1-5_i386.tazpkg (all ready converted/installed by hardinfo)
+dpkg install libxmu6_1.1.2-1_i386.tazpkg
+dpkg install libxpm4_3.5.11-1+b1_i386.tazpkg
+dpkg install libxrandr2_1.4.2-1+b1_i386.tazpkg
+dpkg install libxrender1_0.9.8-1+b1_i386.tazpkg
+dpkg install libxt6_1.1.4-1+b1_i386.tazpkg
+dpkg install libxxf86vm1_1.1.3-1+b1_i386.tazpkg
+dpkg install xscreensaver-data_5.30-1+b1_i386.tazpkg
 
 #Install abiword
 cd ~/files_slitaz_altering_programs_script/abiword/
