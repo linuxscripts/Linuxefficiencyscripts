@@ -3,18 +3,6 @@
 # made by Brian Peregrine, released under the GNU General Public License #
 ##########################################################################
 
-#BusyBox_cmd_update: will
-#Remove tty
-#Remove ttysize
-#Remove getty
-#Remove less, (keeping only vi)
-#Remove rmdir (use rm -r command instead)
-#Remove rpm
-#Remove rpm2cpio
-#Add locate command
-#Add rename command
-#Add ssh
-
 #!/bin/sh
 
 tazpkg remove alsaplayer
@@ -46,6 +34,17 @@ tazpkg get-install busybox-altered
 
 
 Busybox altered details:
+busybox-altered will
+#Remove tty
+#Remove ttysize
+#Remove getty
+#Remove less, (keeping only vi)
+#Remove rmdir (use rm -r command instead)
+#Remove rpm
+#Remove rpm2cpio
+#Add locate command
+#Add rename command
+#Add ssh
 
 for all this, busybox will need to be rebuild appearantly, can't be done with
 deleting things from outside busybox, see 
