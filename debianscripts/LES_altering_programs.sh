@@ -62,63 +62,63 @@ dpkg install retawq
 
 #Install pypar2
 cd ~/files_slitaz_altering_programs_script/pypar2/
-tazpkg install pypar2_1.4-7_all.tazpkg
-tazpkg install par2_0.6.11-1_i386.tazpkg
-tazpkg install python-glade2_2.24.0-4_i386.tazpkg
-tazpkg install python-vte_0.28.2-5_i386.tazpkg
+dpkg install pypar2_1.4-7_all.tazpkg
+dpkg install par2_0.6.11-1_i386.tazpkg
+dpkg install python-glade2_2.24.0-4_i386.tazpkg
+dpkg install python-vte_0.28.2-5_i386.tazpkg
 
 #Install HardInfo
 cd ~/files_slitaz_altering_programs_script/hardinfo/
-tazpkg install hardinfo_0.5.1-1.4_i386.tazpkg
-tazpkg install libatk1.0-0_2.14.0-1_i386.tazpkg
-#tazpkg install libc6_2.19-18_i386.deb (all ready installed by sshguard, in other script)
-tazpkg install libcairo2_1.14.0-2.1_i386.tazpkg
-tazpkg install libffi6_3.1-2+b2_i386.tazpkg
-tazpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg
-tazpkg install libfreetype6_2.5.2-3_i386.tazpkg
-tazpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready installed by firefox; in other script)
-tazpkg install liblzma5_5.1.1alpha+20120614-2+b3_i386.tazpkg
-tazpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg
-tazpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg
-tazpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg
-tazpkg install libpcre3_8.35-3.3_i386.tazpkg
-tazpkg install libselinux1_2.3-2_i386.tazpkg
-tazpkg install libsoup2.4-1_2.48.0-1_i386.tazpkg
-tazpkg install libxml2_2.9.1+dfsg1-5_i386.tazpkg
-tazpkg install pciutils_3.2.1-3_i386.tazpkg
-#tazpkg install zlib1g_1.2.8.dfsg-2+b1_i386.tazpkg (all ready installed by clamav)
+dpkg install hardinfo_0.5.1-1.4_i386.tazpkg
+dpkg install libatk1.0-0_2.14.0-1_i386.tazpkg
+#dpkg install libc6_2.19-18_i386.deb (all ready installed by sshguard, in other script)
+dpkg install libcairo2_1.14.0-2.1_i386.tazpkg
+dpkg install libffi6_3.1-2+b2_i386.tazpkg
+dpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg
+dpkg install libfreetype6_2.5.2-3_i386.tazpkg
+dpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready installed by firefox; in other script)
+dpkg install liblzma5_5.1.1alpha+20120614-2+b3_i386.tazpkg
+dpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg
+dpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg
+dpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg
+dpkg install libpcre3_8.35-3.3_i386.tazpkg
+dpkg install libselinux1_2.3-2_i386.tazpkg
+dpkg install libsoup2.4-1_2.48.0-1_i386.tazpkg
+dpkg install libxml2_2.9.1+dfsg1-5_i386.tazpkg
+dpkg install pciutils_3.2.1-3_i386.tazpkg
+#dpkg install zlib1g_1.2.8.dfsg-2+b1_i386.tazpkg (all ready installed by clamav)
 
 #Install Gajim + OTR plugin (https://github.com/python-otr/gajim-otr)
 cd ~/files_slitaz_altering_programs_script/gajim/
-tazpkg install gajim_0.16-1_all.tazpkg
-tazpkg install dbus_1.8.16-1_i386.tazpkg
-tazpkg install dnsutils_9.9.5.dfsg-9_i386.tazpkg
-tazpkg install python_2.7.9-1_i386.tazpkg
-tazpkg install python-dbus_1.2.0-2+b3_i386.tazpkg
-tazpkg install python-gtk2_2.24.0-4_i386.tazpkg
-tazpkg install python-nbxmpp_0.5.1-2_all.tazpkg
+dpkg install gajim_0.16-1_all.tazpkg
+dpkg install dbus_1.8.16-1_i386.tazpkg
+dpkg install dnsutils_9.9.5.dfsg-9_i386.tazpkg
+dpkg install python_2.7.9-1_i386.tazpkg
+dpkg install python-dbus_1.2.0-2+b3_i386.tazpkg
+dpkg install python-gtk2_2.24.0-4_i386.tazpkg
+dpkg install python-nbxmpp_0.5.1-2_all.tazpkg
 cp pure-python-otr-master /share/gajim/plugins/
 
 #Install Geany
 cd ~/files_slitaz_altering_programs_script/geany/
-tazpkg install geany_1.24.1+dfsg-1_i386.tazpkg
-tazpkg install geany-common_1.24.1+dfsg-1_all.tazpkg
-#tazpkg install libatk1.0-0_2.14.0-1_i386.tazpkg (all ready installed by HardInfo)
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready installed by sshguard, in other script)
-#tazpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready installed by HardInfo)
-#tazpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg (all ready installed by HardInfo)
-#tazpkg install libfreetype6_2.5.2-3_i386.tazpkg (all ready installed by HardInfo)
-tazpkg install libgcc1_4.9.2-10_i386.tazpkg
-#tazpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by HardInfo)
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready installed by firefox; in other script)
-#tazpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by HardInfo)
-#tazpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by HardInfo)
-#tazpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by HardInfo)
-#tazpkg install libstdc++6_4.9.2-10_i386.tazpkg (all ready converted/installed by firefox, in other script)
-tazpkg install multiarch-support_2.19-18_i386.tazpkg
+dpkg install geany_1.24.1+dfsg-1_i386.tazpkg
+dpkg install geany-common_1.24.1+dfsg-1_all.tazpkg
+#dpkg install libatk1.0-0_2.14.0-1_i386.tazpkg (all ready installed by HardInfo)
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready installed by sshguard, in other script)
+#dpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready installed by HardInfo)
+#dpkg install libfontconfig1_2.11.0-6.3_i386.tazpkg (all ready installed by HardInfo)
+#dpkg install libfreetype6_2.5.2-3_i386.tazpkg (all ready installed by HardInfo)
+dpkg install libgcc1_4.9.2-10_i386.tazpkg
+#dpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by HardInfo)
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready installed by firefox; in other script)
+#dpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by HardInfo)
+#dpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by HardInfo)
+#dpkg install libpangoft2-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by HardInfo)
+#dpkg install libstdc++6_4.9.2-10_i386.tazpkg (all ready converted/installed by firefox, in other script)
+dpkg install multiarch-support_2.19-18_i386.tazpkg
 
 #Install xscreensaver
 cd ~/files_slitaz_altering_programs_script/xscreensaver/
