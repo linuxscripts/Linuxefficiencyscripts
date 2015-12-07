@@ -17,6 +17,11 @@
 
 #!/bin/sh
 
+tazpkg get-install 
+
+
+
+
 tazpkg remove busybox
 
 cd ~/files_busybox_cmd_update/
