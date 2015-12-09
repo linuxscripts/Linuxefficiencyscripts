@@ -17,7 +17,11 @@ tazpkg remove xombrero
 
 tazpkg get-install get-palemoon
 tazpkg get-install get-flash-plugin
-
+tazpkg get-install geany
+tazpkg get-install gajim
+tazpkg get-install clamav
+tazpkg get-install gadmin-antivirus
+tazpkg get-install sshguard
 tazpkg get-install ipkungfu
 tazpkg get-install youtube-viewer
 tazpkg get-install firejail
@@ -32,12 +36,27 @@ tazpkg get-install xscreensaver_slideshow_style
 tazpkg get-install slitaz_persistencebootupforHDD
 tazpkg get-install busybox-altered
 
+tazpkg get-install xorg-xf86-video-ati
+tazpkg get-install xorg-xf86-video-cirrus
+tazpkg get-install xorg-xf86-video-geode
+tazpkg get-install xorg-xf86-video-i740
 tazpkg get-install xorg-xf86-video-intel
+tazpkg get-install xorg-xf86-video-mach64
+tazpkg get-install xorg-xf86-video-neomagic
+tazpkg get-install xorg-xf86-video-nouveau
+tazpkg get-install xorg-xf86-video-nv
+tazpkg get-install xorg-xf86-video-radeon
+tazpkg get-install xorg-xf86-video-s3
+tazpkg get-install xorg-xf86-video-s3virge
+tazpkg get-install xorg-xf86-video-savage
+tazpkg get-install xorg-xf86-video-sis
+tazpkg get-install xorg-xf86-video-trident
+tazpkg get-install xorg-xf86-video-tseng
+tazpkg get-install xorg-xf86-video-f4l
+tazpkg get-install xorg-xf86-video-vmware
+
 tazpkg get-install xorg-libXvMC
 tazpkg get-install xorg-libXv
-tazpkg get-install mesa-dri-intel
-tazpkg get-install mesa
-tazpkg get-install mesa-dri-ati
 
 Busybox altered details:
 busybox-altered will
