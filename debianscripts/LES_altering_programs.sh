@@ -57,7 +57,7 @@
 
 #Install the programs mentioned above:
 #Install retawq web browser (needed for web-based man checking)
-dpkg install retawq
+dpkg-i retawq
 
 #Install pypar2
 cd ~/files_slitaz_altering_programs_script/pypar2/
