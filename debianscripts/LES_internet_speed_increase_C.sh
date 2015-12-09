@@ -11,46 +11,24 @@
 
 #!/bin/sh
 
-#Convert debian packages to tazpkg packages (deactivate this by adding # before each line if you use a plain debian distro, and not a slitaz-based distro)
-cd ~/files_internet_speed_increase_scripts/
-tazpkg convert firejail_0.9.26_1_i386.deb
-
 cd ~/files_internet_speed_increase_scripts/youtube-viewer_dependencies/
-tazpkg convert libdata-dump-perl_1.22-1_all.deb
-tazpkg convert libgtk2-perl_1.2492-4_i386.deb
-tazpkg convert libwww-perl_6.08-1_all.deb
-tazpkg convert gcap_0.1.1-1_all.deb
-tazpkg convert libterm-readline-gnu-perl_1.24-2+b1_i386.deb
-tazpkg convert liblwp-protocol-https-perl_6.06-2_all.deb
-tazpkg convert libterm-readkey-perl_2.32-1+b1_i386.deb
-
-#Install youtube-viewer (see https://github.com/trizen/youtube-viewer/issues/22)
-cd ~/files_internet_speed_increase_scripts/youtube-viewer/WWW-YoutubeViewer/
-tazpkg install libdata-dump-perl_1.22-1_all.tazpkg
-tazpkg install libgtk2-perl_1.2492-4_i386.tazpkg
-tazpkg install libwww-perl_6.08-1_all.tazpkg
-tazpkg install gcap_0.1.1-1_all.tazpkg
-tazpkg install libterm-readline-gnu-perl_1.24-2+b1_i386.tazpkg
-tazpkg install liblwp-protocol-https-perl_6.06-2_all.tazpkg
-tazpkg install libterm-readkey-perl_2.32-1+b1_i386.tazpkg
+dpkg-i libdata-dump-perl_1.22-1_all.deb
+dpkg-i libgtk2-perl_1.2492-4_i386.deb
+dpkg-i libwww-perl_6.08-1_all.deb
+dpkg-i gcap_0.1.1-1_all.deb
+dpkg-i libterm-readline-gnu-perl_1.24-2+b1_i386.deb
+dpkg-i liblwp-protocol-https-perl_6.06-2_all.deb
+dpkg-i libterm-readkey-perl_2.32-1+b1_i386.deb
 sudo cpan -i XML::Fast
 ./Build.PL
 ./Build
 ./Build test
 ./Build install --install_path script=/usr/bin
 
-cd ~/files_internet_speed_increase_scripts/youtube-viewer_dependencies/
-tazpkg install libdata-dump-perl_1.22-1_all.tazpkg
-tazpkg install libgtk2-perl_1.2492-4_i386.tazpkg
-tazpkg install libwww-perl_6.08-1_all.tazpkg
-tazpkg install gcap_0.1.1-1_all.tazpkg
-tazpkg install libterm-readline-gnu-perl_1.24-2+b1_i386.tazpkg
-tazpkg install liblwp-protocol-https-perl_6.06-2_all.tazpkg
-tazpkg install libterm-readkey-perl_2.32-1+b1_i386.tazpkg
 
 #Install firejail, and copy all ready made profiles for other programs -besides Firefox, as a profile is all ready standardly included for this- (see https://l3net.wordpress.com/2014/09/19/firejail-a-security-sandbox-for-mozilla-firefox/ and https://l3net.wordpress.com/2015/02/19/firejail-a-security-sandbox-for-mozilla-firefox-part-2/ and https://l3net.wordpress.com/projects/firejail/building-custom-profiles/ )
 cd ~/files_internet_speed_increase_scripts/
-./firejail_0.9.26_1_i386.tazpkg
+dpkg-i firejail_0.9.26_1_i386.deb
 ./configure
 make
 make install
