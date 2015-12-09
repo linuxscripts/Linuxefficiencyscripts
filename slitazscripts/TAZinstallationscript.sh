@@ -32,6 +32,12 @@ tazpkg get-install xscreensaver_slideshow_style
 tazpkg get-install slitaz_persistencebootupforHDD
 tazpkg get-install busybox-altered
 
+tazpkg get-install xorg-xf86-video-intel
+tazpkg get-install xorg-libXvMC
+tazpkg get-install xorg-libXv
+tazpkg get-install mesa-dri-intel
+tazpkg get-install mesa
+tazpkg get-install mesa-dri-ati
 
 Busybox altered details:
 busybox-altered will
