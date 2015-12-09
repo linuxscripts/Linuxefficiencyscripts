@@ -104,11 +104,11 @@ cp pure-python-otr-master /share/gajim/plugins/
 cd ~/files_slitaz_altering_programs_script/geany/
 dpkg-i geany_1.24.1+dfsg-1_i386.deb
 dpkg-i geany-common_1.24.1+dfsg-1_all.deb
-#dpkg install libatk1.0-0_2.14.0-1_i386.deb (all ready installed by HardInfo)
-#dpkg install libc6_2.19-18_i386.deb (all ready installed by sshguard, in other script)
-#dpkg install libcairo2_1.14.0-2.1_i386.deb (all ready installed by HardInfo)
-#dpkg install libfontconfig1_2.11.0-6.3_i386.deb (all ready installed by HardInfo)
-#dpkg install libfreetype6_2.5.2-3_i386.deb (all ready installed by HardInfo)
+#dpkg-i libatk1.0-0_2.14.0-1_i386.deb (all ready installed by HardInfo)
+#dpkg-i libc6_2.19-18_i386.deb (all ready installed by sshguard, in other script)
+#dpkg-i libcairo2_1.14.0-2.1_i386.deb (all ready installed by HardInfo)
+#dpkg-i libfontconfig1_2.11.0-6.3_i386.deb (all ready installed by HardInfo)
+#dpkg-i libfreetype6_2.5.2-3_i386.deb (all ready installed by HardInfo)
 dpkg-i libgcc1_4.9.2-10_i386.deb
 #dpkg-i libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.deb (all ready converted/installed by HardInfo)
 #dpkg-i libglib2.0-0_2.42.1-1_i386.deb (all ready converted/installed by firefox, in other script)
