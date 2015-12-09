@@ -239,45 +239,45 @@ dpkg install libcdio-cdda1_0.83-4.2_i386.tazpkg
 dpkg install libcdio-paranoia1_0.83-4.2_i386.tazpkg
 dpkg install libdvdnav4_5.0.1-1_i386.tazpkg
 dpkg install libdvdread4_5.0.0-1_i386.tazpkg
-tazpkg install libegl1-mesa_10.3.2-1_i386.tazpkg
-tazpkg install libenca0_1.16-1_i386.tazpkg
-tazpkg install libgl1-mesa-glx_10.3.2-1_i386.tazpkg
-tazpkg install libguess1_1.2-1_i386.tazpkg
-tazpkg install libjack-jackd2-0_1.9.10+20140719git3eb0ae6a~dfsg-2_i386.tazpkg
-tazpkg install libjpeg62-turbo_1.3.1-12_i386.tazpkg
-tazpkg install liblcms2-2_2.6-3+b3_i386.tazpkg
-tazpkg install liblircclient0_0.9.0~pre1-1.2_i386.tazpkg
-tazpkg install liblua5.2-0_5.2.3-1.1_i386.tazpkg
-tazpkg install libmpg123-0_1.20.1-2_i386.tazpkg
-tazpkg install libpulse0_5.0-13_i386.tazpkg
-tazpkg install libquvi7_0.4.1-3_i386.tazpkg
-tazpkg install libsdl2-2.0-0_2.0.2+dfsg1-6_i386.tazpkg
-tazpkg install libswscale3_11.3-1_i386.tazpkg
-tazpkg install libuuid1_2.25.2-6_i386.tazpkg
-tazpkg install libva1_1.4.1-1_i386.tazpkg
-tazpkg install libva-glx1_1.4.1-1_i386.tazpkg
-tazpkg install libva-x11-1_1.4.1-1_i386.tazpkg
-tazpkg install libvdpau1_0.8-3_i386.tazpkg
-tazpkg install libwayland-client0_1.6.0-2_i386.tazpkg
-tazpkg install libwayland-cursor0_1.6.0-2_i386.tazpkg
-tazpkg install libwayland-egl1-mesa_10.3.2-1_i386.tazpkg
-#tazpkg install libx11-6_1.6.2-3_i386.tazpkg (all ready converted/installed by xscreensaver)
-#tazpkg install libxext6_1.3.3-1_i386.tazpkg (all ready converted/installed by xscreensaver)
-#tazpkg install libxinerama1_1.1.3-1+b1_i386.tazpkg (all ready converted/installed by xscreensaver)
-tazpkg install libxkbcommon0_0.4.3-2_i386.tazpkg
-#tazpkg install libxrandr2_1.4.2-1+b1_i386.tazpkg (all ready converted/installed by xscreensaver)
-tazpkg install libxss1_1.2.2-1_i386.tazpkg
-tazpkg install libxv1_1.0.10-1+b1_i386.tazpkg
-#tazpkg install zlib1g_1.2.8.dfsg-2+b1_i386.tazpkg (all ready converted/installed by clamav)
+dpkg install libegl1-mesa_10.3.2-1_i386.tazpkg
+dpkg install libenca0_1.16-1_i386.tazpkg
+dpkg install libgl1-mesa-glx_10.3.2-1_i386.tazpkg
+dpkg install libguess1_1.2-1_i386.tazpkg
+dpkg install libjack-jackd2-0_1.9.10+20140719git3eb0ae6a~dfsg-2_i386.tazpkg
+dpkg install libjpeg62-turbo_1.3.1-12_i386.tazpkg
+dpkg install liblcms2-2_2.6-3+b3_i386.tazpkg
+dpkg install liblircclient0_0.9.0~pre1-1.2_i386.tazpkg
+dpkg install liblua5.2-0_5.2.3-1.1_i386.tazpkg
+dpkg install libmpg123-0_1.20.1-2_i386.tazpkg
+dpkg install libpulse0_5.0-13_i386.tazpkg
+dpkg install libquvi7_0.4.1-3_i386.tazpkg
+dpkg install libsdl2-2.0-0_2.0.2+dfsg1-6_i386.tazpkg
+dpkg install libswscale3_11.3-1_i386.tazpkg
+dpkg install libuuid1_2.25.2-6_i386.tazpkg
+dpkg install libva1_1.4.1-1_i386.tazpkg
+dpkg install libva-glx1_1.4.1-1_i386.tazpkg
+dpkg install libva-x11-1_1.4.1-1_i386.tazpkg
+dpkg install libvdpau1_0.8-3_i386.tazpkg
+dpkg install libwayland-client0_1.6.0-2_i386.tazpkg
+dpkg install libwayland-cursor0_1.6.0-2_i386.tazpkg
+dpkg install libwayland-egl1-mesa_10.3.2-1_i386.tazpkg
+#dpkg install libx11-6_1.6.2-3_i386.tazpkg (all ready converted/installed by xscreensaver)
+#dpkg install libxext6_1.3.3-1_i386.tazpkg (all ready converted/installed by xscreensaver)
+#dpkg install libxinerama1_1.1.3-1+b1_i386.tazpkg (all ready converted/installed by xscreensaver)
+dpkg install libxkbcommon0_0.4.3-2_i386.tazpkg
+#dpkg install libxrandr2_1.4.2-1+b1_i386.tazpkg (all ready converted/installed by xscreensaver)
+dpkg install libxss1_1.2.2-1_i386.tazpkg
+dpkg install libxv1_1.0.10-1+b1_i386.tazpkg
+#dpkg install zlib1g_1.2.8.dfsg-2+b1_i386.tazpkg (all ready converted/installed by clamav)
 
 #Install LXDE compiling dependencies
 cd ~/files_slitaz_altering_programs_script/LXDE/LXDE_dependencies_compiling/
-tazpkg install libtool_2.4.2-1.11_all.tazpkg
-tazpkg install intltool_0.50.2-2_all.tazpkg
-tazpkg install libfm-gtk4_1.2.3-1_i386.tazpkg
-tazpkg install libwnck-3-0_3.4.9-3_i386.tazpkg
-tazpkg install libkeybinder-3.0-0_0.3.0-1_i386.tazpkg
-tazpkg install libfm-extra4_1.2.3-1_i386.tazpkg
+dpkg install libtool_2.4.2-1.11_all.tazpkg
+dpkg install intltool_0.50.2-2_all.tazpkg
+dpkg install libfm-gtk4_1.2.3-1_i386.tazpkg
+dpkg install libwnck-3-0_3.4.9-3_i386.tazpkg
+dpkg install libkeybinder-3.0-0_0.3.0-1_i386.tazpkg
+dpkg install libfm-extra4_1.2.3-1_i386.tazpkg
 
 #Install menu-cache (see http://www.linuxfromscratch.org/blfs/view/7.6/lxde/menu-cache.html )
 cd ~/files_slitaz_altering_programs_script/LXDE/menu-cache-1.0.0/
@@ -321,22 +321,22 @@ cd ~/files_slitaz_altering_programs_script/LXDE/lxpanel-0.8.1/
 
 #Install Leafpad
 cd ~/files_slitaz_altering_programs_script/LXDE/leafpad/
-tazpkg install leafpad_0.8.18.1-4_i386.deb
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready installed by sshguard, in other script)
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+dpkginstall leafpad_0.8.18.1-4_i386.deb
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready installed by sshguard, in other script)
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libcairo2_1.14.0-2.1_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libpangocairo-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
 
 #Install Xarchiver
 cd ~/files_slitaz_altering_programs_script/LXDE/xarchiver/
-tazpkg install xarchiver_0.5.4-1_i386.tazpkg
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
-#tazpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by hardinfo)
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script)
-#tazpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+dpkg install xarchiver_0.5.4-1_i386.tazpkg
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
+#dpkg install libgdk-pixbuf2.0-0_2.31.1-2+b1_i386.tazpkg (all ready converted/installed by hardinfo)
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg (all ready converted/installed by firefox, in other script)
+#dpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
 
 #Install GPicView (see http://www.linuxfromscratch.org/blfs/view/7.6/lxde/gpicview.html )
 cd ~/files_slitaz_altering_programs_script/LXDE/gpicview-0.2.4/
@@ -353,12 +353,12 @@ make install
 
 #Install Galculator
 cd ~/files_slitaz_altering_programs_script/LXDE/galculator/
-tazpkg install galculator_2.1.3-1_i386.tazpkg
-#tazpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
-#tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
-tazpkg install libgtk-3-0_3.14.5-1_i386.tazpkg
-#tazpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
-tazpkg install libquadmath0_4.9.2-10_i386.tazpkg
+dpkg install galculator_2.1.3-1_i386.tazpkg
+#dpkg install libc6_2.19-18_i386.tazpkg (all ready converted/installed by sshguard, in other script)
+#dpkg install libglib2.0-0_2.42.1-1_i386.tazpkg (all ready converted/installed by firefox, in other script)
+dpkg install libgtk-3-0_3.14.5-1_i386.tazpkg
+#dpkg install libpango-1.0-0_1.36.8-3_i386.tazpkg (all ready converted/installed by hardinfo)
+dpkg install libquadmath0_4.9.2-10_i386.tazpkg
 
 #Install LXTask (see http://www.linuxfromscratch.org/blfs/view/7.6/lxde/lxtask.html)
 cd ~/files_slitaz_altering_programs_script/LXDE/lxtask-0.1.6/
@@ -427,19 +427,19 @@ pcmanfm --set-wallpaper=/home/*/wallpapers/transparent_solid_colour.png
 
 #Install the optional programs (not supplied as off-line package; see http://doc.slitaz.org/en:handbook:packages )
 #Install Claws mail
-#tazpkg get-install claws-mail
+#dpkg get-install claws-mail
 
 #Install GIMP
-#tazpkg get-install gimp
+#dpkg get-install gimp
 
 #Install Inkscape
-#tazpkg get-install inkscape
+#dpkg get-install inkscape
 
 #Install Gnumeric
-#tazpkg get-install gnumeric
+#dpkg get-install gnumeric
 
 #Install Sozi
-#tazpkg get-install sozi
+#dpkg get-install sozi
 
 #Install Transmission
-#tazpkg get-install transmission
+#dpkg get-install transmission
