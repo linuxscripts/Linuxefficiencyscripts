@@ -18,22 +18,13 @@ cd ~/files_internet_speed_increase_scripts/
 cp firefox /usr/local/
 
 cd ~/files_internet_speed_increase_scripts/firefox_dependencies/
-tazpkg convert libgtk2.0-0_2.24.25-3_i386.deb
-tazpkg convert libstdc++6_4.9.2-10_i386.deb
-tazpkg convert libglib2.0-0_2.42.1-1_i386.deb
-tazpkg convert network-manager_0.9.10.0-7_i386.deb
-tazpkg convert dbus_1.8.16-1_i386.deb
-tazpkg convert hal_0.5.14-8_i386.deb
-tazpkg convert gnome_3.14+3_i386.deb
-
-cd ~/files_internet_speed_increase_scripts/firefox_dependencies/
-tazpkg install libgtk2.0-0_2.24.25-3_i386.tazpkg
-tazpkg install libstdc++6_4.9.2-10_i386.tazpkg
-tazpkg install libglib2.0-0_2.42.1-1_i386.tazpkg
-tazpkg install network-manager_0.9.10.0-7_i386.tazpkg
-tazpkg install dbus_1.8.16-1_i386.tazpkg
-tazpkg install hal_0.5.14-8_i386.tazpkg
-tazpkg install gnome_3.14+3_i386.tazpkg
+dpkg-i libgtk2.0-0_2.24.25-3_i386.deb
+dpkg-i libstdc++6_4.9.2-10_i386.deb
+dpkg-ilibglib2.0-0_2.42.1-1_i386.deb
+dpkg-i network-manager_0.9.10.0-7_i386.deb
+dpkg-i dbus_1.8.16-1_i386.deb
+dpkg-i hal_0.5.14-8_i386.deb
+dpkg-i gnome_3.14+3_i386.deb
 
 cd ~/files_internet_speed_increase_scripts/firefox_dependencies/pango-1.36.8/
 ./configure 
