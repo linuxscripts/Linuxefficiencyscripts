@@ -403,7 +403,7 @@ gtk-update-icon-cache -qf /usr/share/icons/nuoveXT2
 
 #Change the LXpanel configuration file (see http://wiki.lxde.org/en/LXPanel ) to look more like a dock, and change the programs it starts
 cd ~/files_slitaz_altering_programs_script/lxpanel_configs/
-cp 
+cp panel /home/tux/.config/lxpanel 
 
 #Turn off GVFS in FileManFM (see http://wiki.lxde.org/en/LXDE:PCManFM_build_and_setup_guide )
 export GIO_USE_VFS="local"
