@@ -31,6 +31,11 @@ cd ~/files_internet_speed_increase_scripts/firefox_dependencies/pango-1.36.8/
 make
 make install
 
+#Copy the modified preferences files to the firefox folder so it uses these modified settings rather than the standard settings, see https://mike.kaply.com/2012/03/15/customizing-firefox-default-preference-files/
+cd ~/files_internet_speed_increase_scripts/firefox_updated_settings/
+cp Updated_about_config_settings.cfg /firefox
+cp autoconfig.js /usr/local/firefox/defaults/pref/
+
 #Install Flash player; see https://helpx.adobe.com/flash-player/release-note/readme-flash-player-linux.html
 cd ~/files_internet_speed_increase_scripts/flashplayer11-2-202460-targz/
 cp usr/bin/* /usr/bin/
