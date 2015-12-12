@@ -23,7 +23,7 @@ tazpkg get-install clamav
 tazpkg get-install gadmin-antivirus
 tazpkg get-install sshguard
 tazpkg get-install ipkungfu
-tazpkg get-install youtube-viewer
+tazpkg get-install mps-youtube
 tazpkg get-install firejail
 tazpkg get-install pypar2
 tazpkg get-install gajim-OTR
