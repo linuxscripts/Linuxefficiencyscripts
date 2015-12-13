@@ -24,17 +24,17 @@ tazpkg get-install gadmin-antivirus
 tazpkg get-install sshguard
 tazpkg get-install ipkungfu
 tazpkg get-install mps-youtube
-tazpkg get-install firejail
+tazpkg get-install firejail-taz_style
 tazpkg get-install pypar2
 tazpkg get-install gajim-OTR
 tazpkg get-install PCMan-noGVFS
 tazpkg get-install get-palemoon-secimp
 tazpkg get-install conky-crnbng_style
 tazpkg get-install openbox-crnbng_style
-tazpkg get-install lxpanel_taz_style
-tazpkg get-install fstab_logicaldrives
-tazpkg get-install xscreensaver_slideshow_style
-tazpkg get-install slitaz_persistencebootupforHDD
+tazpkg get-install lxpanel-taz_style
+tazpkg get-install fstab-logicaldrives
+tazpkg get-install xscreensaver-slideshow_style
+tazpkg get-install slitaz-persistencebootupforHDD
 tazpkg get-install busybox-altered
 
 tazpkg get-install xorg-xf86-video-ati
