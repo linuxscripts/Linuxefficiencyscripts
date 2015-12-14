@@ -32,7 +32,7 @@ tazpkg get-install get-palemoon-secimp
 tazpkg get-install conky-crnbng_style
 tazpkg get-install openbox-crnbng_style
 tazpkg get-install lxpanel-taz_style
-tazpkg get-install fstab-logicaldrives
+tazpkg get-install fstab-simple_mountpoints
 tazpkg get-install xscreensaver-slideshow_style
 tazpkg get-install slitaz-persistencebootupforHDD
 tazpkg get-install busybox-altered
