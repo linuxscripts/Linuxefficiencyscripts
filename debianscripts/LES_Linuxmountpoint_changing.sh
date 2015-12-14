@@ -1,5 +1,5 @@
 ##########################################################################
-#                    Linux_directorytree_changing                        #
+#                    fstab_simple_mountpoints                            #
 # made by Brian Peregrine, released under the GNU General Public License #
 ##########################################################################
 
