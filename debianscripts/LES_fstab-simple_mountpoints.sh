@@ -1,5 +1,5 @@
 ##########################################################################
-#                    fstab_simple_mountpoints                            #
+#                    fstab-simple_mountpoints                            #
 # made by Brian Peregrine, released under the GNU General Public License #
 ##########################################################################
 
