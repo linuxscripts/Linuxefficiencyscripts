@@ -56,8 +56,9 @@ tazpkg get-install xorg-xf86-video-tseng
 tazpkg get-install xorg-xf86-video-f4l
 tazpkg get-install xorg-xf86-video-vmware
 
-tazpkg get-install xorg-libXvMC
-tazpkg get-install xorg-libXv
+cd /usr/bin
+./get-palemoon
+./get-flash-plugin
 
 Busybox altered details:
 busybox-altered will
