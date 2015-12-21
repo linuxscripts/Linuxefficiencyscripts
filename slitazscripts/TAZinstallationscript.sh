@@ -56,6 +56,8 @@ tazpkg get-install xorg-xf86-video-tseng
 tazpkg get-install xorg-xf86-video-f4l
 tazpkg get-install xorg-xf86-video-vmware
 
+tazpkg clean-cache
+
 cd ~/home/tux
 rm -r .mhwaveedit .xombrero
 
