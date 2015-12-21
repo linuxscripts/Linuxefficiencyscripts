@@ -59,10 +59,6 @@ tazpkg get-install xorg-xf86-video-vmware
 cd ~/home/tux
 rm -r .mhwaveedit .xombrero
 
-cd ~/usr/bin
-./get-palemoon
-./get-flash-plugin
-
 Busybox altered details:
 busybox-altered will
 #Remove tty
