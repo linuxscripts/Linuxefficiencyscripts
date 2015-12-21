@@ -13,15 +13,9 @@
 
 #!/bin/sh
 
-#Convert debian packages to tazpkg packages (deactivate this by adding # before each line if you use a plain debian distro, and not a slitaz-based distro)
-cd ~/files_install_crunchbangOpenbox_and_conky_script/
-tazpkg convert conky_1.9.0-6_all.deb
-tazpkg convert conky-std_1.9.0-6_i386.deb
-
 #Install Conky
-cd ~/files_install_crunchbangOpenbox_and_conky_script/
-./conky_1.9.0-6_all.tazpkg
-./conky-std_1.9.0-6_i386.deb
+dpkg -i conky_1.9.0-6_all.deb
+dpkg -i conky-std_1.9.0-6_i386.deb
 
 #Install vnStat (see http://www.tecmint.com/install-vnstat-and-vnstati-to-monitor-linux-network-traffic/)
 cd ~/files_install_crunchbangOpenbox_and_conky_script/vnstat-1.14
