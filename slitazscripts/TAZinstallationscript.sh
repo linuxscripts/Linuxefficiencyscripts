@@ -5,7 +5,6 @@
 
 #!/bin/sh
 
-tazpkg remove alsaplayer
 tazpkg remove beaver
 tazpkg remove dropbear
 tazpkg remove epdfview
