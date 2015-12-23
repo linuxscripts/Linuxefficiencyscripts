@@ -3,8 +3,8 @@
 the script would need to make a single boot screen on startup; currently in the RC2 and cooking versions there are 3; one where you select language, then a screen where you can type extra parameters in (disappears quickly) and then another screen to select whether one wishes to start the justx, core, or another flavor, or a memtest, ... Only the last screen should be kept and preferably made to show:
 * log in as root
 * log in as root + persistence
-* log in as user (tux)
-* log in as user (tux) + persistence
+* log in as user (anon)
+* log in as user (anon) + persistence
 * install SliTaz to HD
 * help and options
 * Command line
