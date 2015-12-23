@@ -33,7 +33,7 @@ tazpkg get-install openbox-crnbng_style
 tazpkg get-install lxpanel-taz_style
 tazpkg get-install fstab-simple_mountpoints
 tazpkg get-install xscreensaver-slideshow_style
-tazpkg get-install grub-persistencebootupforHDD
+tazpkg get-install isolinux-persistencebootupforlivedistro
 tazpkg get-install busybox-altered
 
 tazpkg get-install xorg-xf86-video-ati
